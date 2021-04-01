@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
 router.post('/add', async (req, res) => {
 
     // to debug
-    console.log(req.body);
+    //console.log(req.body);
 
     // create object of Post model
     const task = new Task({
