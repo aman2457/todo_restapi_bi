@@ -1,0 +1,28 @@
+{
+  "name": "todoapp",
+  "version": "1.0.0",
+  "description": "A restful api for get post",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aman2457/todo_restapi_bi.git"
+  },
+  "author": "Aman Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aman2457/todo_restapi_bi/issues"
+  },
+  "homepage": "https://github.com/aman2457/todo_restapi_bi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "nodemon": "^2.0.7"
+  }
+}
