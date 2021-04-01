@@ -15,19 +15,13 @@ app.use('/', TaskRouter)
 mongoose.connect(
     process.env.DB_URL, {
         useNewUrlParser: true
-    }, () => console.log('Hurray, connected to DB!'));
-// connected successfully
-
-
-
+    }, () => console.log('Hurray, connected to DB (:-!'));
+// connected successfull
 
 
 
 // default
 
-app.get('/', (req, res) => {
-    res.send('Welcome to Home');
-});
 
 
 
