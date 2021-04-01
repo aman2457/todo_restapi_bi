@@ -20,12 +20,14 @@ router.post('/add', async (req, res) => {
         TaskName: req.body.TaskName,
         Description: req.body.Description,
         Creator: req.body.Creator,
-        Duration: req.body.Duration
+        Duration: req.body.Duration,
+        expire_at: req.body.Duration
+
     });
+
 
     // save to database
     try {
-
         const savedTask = await task.save();
         res.status(200).json(savedTask);
     } catch (e) {

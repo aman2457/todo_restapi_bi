@@ -24,9 +24,9 @@ const TaskSchema = Mongoose.Schema({
     },
     expire_at: {
         type: Date,
-        default: Date.now,
-        expires: Duration * 60
+        default: Date.now(),
     }
+
 });
 
 
