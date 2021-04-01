@@ -1,15 +1,24 @@
-## Restful API for Todo app
+# Restful API for Todo app
 
 This is a backend example of a REST
 API for Todo App.
 
-# server url
+## Server Url
 [herokuserver](https://apricot-sundae-79677.herokuapp.com/)
 
+## Technology Used :- 
+<ul>
+  <li> Nodejs </li>
+  <li> ExpressJS</li>
+  <li> MongoDB as database</li>
+  <li> Heroku for your deployment </li>
+  <li> Git for version controlling </li>
+  <ul>
 
-### REST API's
 
-The REST API to the example app is described below.
+## REST API's
+
+The REST API to the todo app is described below.
 
 ### 1. Add Api :
 <ul>
