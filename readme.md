@@ -20,7 +20,7 @@ API for Todo App.
 
 The REST API to the todo app is described below.
 
-### 1. Add Api :
+### 1. Add Api :-
 <ul>
   <li> This api request to server for posting the task details.It adds the data</li>
   <li>The data fields which are required are as follows :- </li>
@@ -34,7 +34,7 @@ The REST API to the todo app is described below.
   <li>[Image of the Post Response i.e Add](https://user-images.githubusercontent.com/54279054/113316698-42977b80-932c-11eb-886c-4c872c3a7836.png)</li>
 
 
-### 2. List Api :
+### 2. List Api :-
 <ul>
   <li> This api request to server for getting all the task details.It fetches the data</li>
   <li>This api returns all the stored task with the following fields. </li>
