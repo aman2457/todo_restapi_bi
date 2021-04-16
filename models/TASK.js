@@ -32,6 +32,3 @@ const TaskSchema = Mongoose.Schema({
 
 module.exports = Mongoose.model('TASK', TaskSchema);
 
-
-//Now handover to you
-// I guess, it shuld work. CHekc again. bu take care of number value in passing context
